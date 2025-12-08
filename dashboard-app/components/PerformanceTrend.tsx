@@ -81,7 +81,7 @@ export default function PerformanceTrend({ data }: PerformanceTrendProps) {
                         <Bar
                             dataKey="pods_collected_pct"
                             name="PODs %"
-                            fill="#0ea5e9" // Lighter blue/sky
+                            fill="#f59e0b" // Warm amber to clearly differentiate from Verbals bar
                             radius={[4, 4, 0, 0]}
                             animationDuration={1500}
                         />
