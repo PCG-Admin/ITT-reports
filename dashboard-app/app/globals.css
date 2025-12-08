@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Premium SaaS Palette (Linear/Vercel inspired) */
+  --bg-app: #f8fafc;
+  /* Slate 50 */
+  --bg-panel: #ffffff;
+  /* White */
+  --bg-panel-hover: #f1f5f9;
+
+  --text-primary: #0f172a;
+  /* Slate 900 */
+  --text-secondary: #64748b;
+  /* Slate 500 */
+  --text-tertiary: #94a3b8;
+  /* Slate 400 */
+
+  --border-subtle: #e2e8f0;
+  /* Slate 200 */
+  --border-hover: #cbd5e1;
+  /* Slate 300 */
+
+  /* Semantic Colors */
+  --brand-primary: #2563eb;
+  /* Blue 600 */
+  --brand-gradient: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+
+  --success-bg: #dcfce7;
+  --success-text: #166534;
+  --success-border: #86efac;
+
+  --warning-bg: #fef9c3;
+  --warning-text: #854d0e;
+  --warning-border: #fde047;
+
+  --danger-bg: #fee2e2;
+  --danger-text: #991b1b;
+  --danger-border: #fca5a5;
+
+  /* Spacing & Layout */
+  --gap-sm: 8px;
+  --gap-md: 16px;
+  --gap-lg: 24px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.05);
+
+  /* Animation */
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.dashboard-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Glass/Card Utility */
+.card-base {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.card-base:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-md);
+}
+
+/* Typography Utilities */
+.text-gradient {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

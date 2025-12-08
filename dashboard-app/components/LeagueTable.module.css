@@ -1,0 +1,122 @@
+.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+    background: var(--bg-panel);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    max-height: 600px;
+    position: relative;
+    /* Custom Scrollbar for table */
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-hover) transparent;
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: var(--text-primary);
+    font-size: 0.875rem;
+}
+
+.table thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--bg-panel);
+}
+
+.table th {
+    text-align: left;
+    padding: 16px;
+    background-color: var(--bg-app);
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 2px solid var(--border-subtle);
+    white-space: nowrap;
+    transition: background-color 0.2s;
+}
+
+.table th:first-child {
+    border-top-left-radius: var(--radius-md);
+}
+
+.table th:last-child {
+    border-top-right-radius: var(--radius-md);
+}
+
+.table th:hover {
+    color: var(--text-primary);
+    background-color: var(--border-subtle);
+}
+
+.table td {
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border-subtle);
+    transition: background-color 0.1s;
+}
+
+.table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Row Styles */
+.branchRow:hover {
+    background-color: var(--bg-panel-hover);
+}
+
+.regionRow {
+    background-color: #f8fafc;
+    font-weight: 600;
+}
+
+.regionRow td {
+    /* Top border to separate regions clearly */
+    border-top: 1px solid var(--border-hover);
+}
+
+.nameCell {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.kgs {
+    font-family: 'Inter', monospace;
+    /* or a monospaced font if preferred */
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Badges / Heatmap cells */
+.badge {
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+/* Heatmap Gradients (Subtle) */
+.success {
+    background: #ecfdf5;
+    color: #047857;
+    text-align: center;
+}
+
+.warning {
+    background: #fffbeb;
+    color: #b45309;
+    text-align: center;
+}
+
+.danger {
+    background: #fef2f2;
+    color: #b91c1c;
+    text-align: center;
+}

@@ -1,0 +1,293 @@
+{
+  "columns": [
+    "Unnamed: 0",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3",
+    "Unnamed: 4",
+    "Unnamed: 5",
+    "Unnamed: 6",
+    "Unnamed: 7",
+    "Unnamed: 8",
+    "Unnamed: 9",
+    "Unnamed: 10",
+    "Unnamed: 11",
+    "Unnamed: 12",
+    "Unnamed: 13",
+    "Unnamed: 14",
+    "Unnamed: 15",
+    "Unnamed: 16",
+    "Unnamed: 17",
+    "Unnamed: 18",
+    "Unnamed: 19",
+    "Unnamed: 20"
+  ],
+  "first_rows": [
+    {
+      "Unnamed: 0": "Daily Summary - 25 Nov 2025",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN,
+      "Unnamed: 8": NaN,
+      "Unnamed: 9": NaN,
+      "Unnamed: 10": NaN,
+      "Unnamed: 11": NaN,
+      "Unnamed: 12": NaN,
+      "Unnamed: 13": NaN,
+      "Unnamed: 14": NaN,
+      "Unnamed: 15": NaN,
+      "Unnamed: 16": NaN,
+      "Unnamed: 17": NaN,
+      "Unnamed: 18": NaN,
+      "Unnamed: 19": NaN,
+      "Unnamed: 20": NaN
+    },
+    {
+      "Unnamed: 0": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN,
+      "Unnamed: 8": NaN,
+      "Unnamed: 9": NaN,
+      "Unnamed: 10": NaN,
+      "Unnamed: 11": NaN,
+      "Unnamed: 12": NaN,
+      "Unnamed: 13": NaN,
+      "Unnamed: 14": NaN,
+      "Unnamed: 15": NaN,
+      "Unnamed: 16": NaN,
+      "Unnamed: 17": NaN,
+      "Unnamed: 18": NaN,
+      "Unnamed: 19": NaN,
+      "Unnamed: 20": NaN
+    },
+    {
+      "Unnamed: 0": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": NaN,
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": NaN,
+      "Unnamed: 8": NaN,
+      "Unnamed: 9": NaN,
+      "Unnamed: 10": NaN,
+      "Unnamed: 11": NaN,
+      "Unnamed: 12": NaN,
+      "Unnamed: 13": NaN,
+      "Unnamed: 14": NaN,
+      "Unnamed: 15": NaN,
+      "Unnamed: 16": NaN,
+      "Unnamed: 17": NaN,
+      "Unnamed: 18": NaN,
+      "Unnamed: 19": NaN,
+      "Unnamed: 20": NaN
+    },
+    {
+      "Unnamed: 0": NaN,
+      "Unnamed: 1": "Verbals (expected 98%) ",
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN,
+      "Unnamed: 4": "POD (expected 99%)",
+      "Unnamed: 5": NaN,
+      "Unnamed: 6": NaN,
+      "Unnamed: 7": "Total returns",
+      "Unnamed: 8": "Fails",
+      "Unnamed: 9": "Fails against tripsheet ",
+      "Unnamed: 10": "Waybills collected ",
+      "Unnamed: 11": "Total activities ",
+      "Unnamed: 12": "PODS outstanding (1 week back)",
+      "Unnamed: 13": "Age Analysis ",
+      "Unnamed: 14": "Trip Sheets ",
+      "Unnamed: 15": NaN,
+      "Unnamed: 16": "Manifests ",
+      "Unnamed: 17": NaN,
+      "Unnamed: 18": "Total KGs per Trip Sheet",
+      "Unnamed: 19": "Total KGs per Manifest",
+      "Unnamed: 20": "Total KG's handled"
+    },
+    {
+      "Unnamed: 0": "Region",
+      "Unnamed: 1": "Total",
+      "Unnamed: 2": "Actual Verbals Outstanding",
+      "Unnamed: 3": "% Collected",
+      "Unnamed: 4": "Actual PODs Outstanding",
+      "Unnamed: 5": "% Collected",
+      "Unnamed: 6": "Failtypes on missing PODs",
+      "Unnamed: 7": "Total",
+      "Unnamed: 8": "Total",
+      "Unnamed: 9": "Total %",
+      "Unnamed: 10": "Total ",
+      "Unnamed: 11": "Tripsheet total + waybills collected ",
+      "Unnamed: 12": "Actual PODs Outstsnding ",
+      "Unnamed: 13": "PODs outstanding",
+      "Unnamed: 14": "Total",
+      "Unnamed: 15": "Open (#)",
+      "Unnamed: 16": "Total",
+      "Unnamed: 17": "Open (#)",
+      "Unnamed: 18": NaN,
+      "Unnamed: 19": NaN,
+      "Unnamed: 20": NaN
+    }
+  ],
+  "dtypes": {
+    "Unnamed: 0": "object",
+    "Unnamed: 1": "object",
+    "Unnamed: 2": "object",
+    "Unnamed: 3": "object",
+    "Unnamed: 4": "object",
+    "Unnamed: 5": "object",
+    "Unnamed: 6": "object",
+    "Unnamed: 7": "object",
+    "Unnamed: 8": "object",
+    "Unnamed: 9": "object",
+    "Unnamed: 10": "object",
+    "Unnamed: 11": "object",
+    "Unnamed: 12": "object",
+    "Unnamed: 13": "object",
+    "Unnamed: 14": "object",
+    "Unnamed: 15": "object",
+    "Unnamed: 16": "object",
+    "Unnamed: 17": "object",
+    "Unnamed: 18": "object",
+    "Unnamed: 19": "object",
+    "Unnamed: 20": "object"
+  },
+  "stats": {
+    "Unnamed: 0": {
+      "count": 27,
+      "unique": 27,
+      "top": "Daily Summary - 25 Nov 2025",
+      "freq": 1
+    },
+    "Unnamed: 1": {
+      "count": 27,
+      "unique": 26,
+      "top": 544,
+      "freq": 2
+    },
+    "Unnamed: 2": {
+      "count": 26,
+      "unique": 20,
+      "top": 1,
+      "freq": 2
+    },
+    "Unnamed: 3": {
+      "count": 26,
+      "unique": 24,
+      "top": 100,
+      "freq": 2
+    },
+    "Unnamed: 4": {
+      "count": 27,
+      "unique": 23,
+      "top": 7,
+      "freq": 2
+    },
+    "Unnamed: 5": {
+      "count": 26,
+      "unique": 24,
+      "top": 100,
+      "freq": 2
+    },
+    "Unnamed: 6": {
+      "count": 26,
+      "unique": 19,
+      "top": 0,
+      "freq": 3
+    },
+    "Unnamed: 7": {
+      "count": 27,
+      "unique": 23,
+      "top": 4,
+      "freq": 2
+    },
+    "Unnamed: 8": {
+      "count": 27,
+      "unique": 24,
+      "top": 3,
+      "freq": 3
+    },
+    "Unnamed: 9": {
+      "count": 27,
+      "unique": 27,
+      "top": "Fails against tripsheet ",
+      "freq": 1
+    },
+    "Unnamed: 10": {
+      "count": 27,
+      "unique": 24,
+      "top": 25,
+      "freq": 2
+    },
+    "Unnamed: 11": {
+      "count": 27,
+      "unique": 26,
+      "top": 2456,
+      "freq": 2
+    },
+    "Unnamed: 12": {
+      "count": 27,
+      "unique": 25,
+      "top": 5,
+      "freq": 2
+    },
+    "Unnamed: 13": {
+      "count": 27,
+      "unique": 26,
+      "top": 612,
+      "freq": 2
+    },
+    "Unnamed: 14": {
+      "count": 27,
+      "unique": 22,
+      "top": 6,
+      "freq": 4
+    },
+    "Unnamed: 15": {
+      "count": 26,
+      "unique": 5,
+      "top": 0,
+      "freq": 16
+    },
+    "Unnamed: 16": {
+      "count": 27,
+      "unique": 17,
+      "top": 2,
+      "freq": 6
+    },
+    "Unnamed: 17": {
+      "count": 26,
+      "unique": 5,
+      "top": 0,
+      "freq": 20
+    },
+    "Unnamed: 18": {
+      "count": 26.0,
+      "unique": 25.0,
+      "top": 179785.98,
+      "freq": 2.0
+    },
+    "Unnamed: 19": {
+      "count": 26.0,
+      "unique": 25.0,
+      "top": 79871.71,
+      "freq": 2.0
+    },
+    "Unnamed: 20": {
+      "count": 26.0,
+      "unique": 25.0,
+      "top": 259657.69,
+      "freq": 2.0
+    }
+  }
+}
